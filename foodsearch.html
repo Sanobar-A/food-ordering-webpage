@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <title>Zaikan</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="fontawesome/css/all.css"/>
+
+    <style type="text/css">
+        .popular{
+            display: flex;
+            height: 90px;
+            margin-right: 380px;
+            border: 2px white solid;
+            margin-left: 400px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding-top: 0px;
+            font-size: 14px;
+        }
+        .popular div{
+            width: 60px;
+            height: 65px;
+            border: 2px white solid;
+            margin-left: 10px;
+            flex: 0 0 auto;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .popular div:hover{
+            box-shadow: 1px 1px 1px 1px gray;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="navflex">
+            <div style="width: 700px; margin-left: 50px;">
+                <span class="sa-h1"><b>/ZAIKAN\</b></span><input type="search" placeholder="search for location here (example 'chandni chowk')" autofocus="" style="width: 500px; margin-left:30px; padding-left: 30px; border-radius: 35px; height: 35px;" />
+                <br>
+                &emsp;&ensp;<img src="zaican.png" height="28px" width="70px" />
+            </div>
+            <div >
+                <span onclick="finding()">Search <i class="fa-solid fa-magnifying-glass fa-1x"></i></span>
+            </div>
+            <div class="naveffect" onclick="offers()">
+                % Offers
+            </div>
+            <div class="naveffect" onclick="sign()">
+                <i class="fa-regular fa-user fa-1x"></i> Sign In
+            </div>
+            <div class="naveffect" onclick="cart()">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <input type="search" placeholder="search for food and restaurants&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; mic" autofocus=""style="height: 40px; border-radius: 30px; margin-top: 30px; width: 800px; margin-left: 368px; margin-right: 368px; padding: 16px 16px;"/>
+        <button onclick="no()" class="x" style="height: 20px ; width: 20px; margin-left: 340px; margin-top: -30px;">X</button>
+    </div>
+    <br><br><br><br><br><br><br><br></br>
+    <h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Zaikan's Popular</h3>
+    <div class="Popular">
+        <div><img src="shawarma.png" height="50px" width="60px" style="border-radius: 500px;"/>Shawarma</div>
+        <div><img src="burger.png" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;&nbsp;Burger</div>
+        <div><img src="coffee.png" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;&nbsp;Coffee</div>
+        <div><img src="non.png" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;Arabian</div>
+        <div><img src="cake.jpg" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;&nbsp;&nbsp;Cake</div>
+        <div><img src="kebab.jpg" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;&nbsp;Kebab</div>
+        <div><img src="noodles.png" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;Noodles</div>
+        <div><img src="ice.jpg" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;&nbsp;&ensp;&nbsp;Ice</div>
+        <div><img src="sandwich.png" height="50px" width="60px" style="border-radius: 500px;"/>&nbsp;Sandwich</div>
+        <div><img src="dosa.jpg" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;&ensp;Dosa</div>
+        <div><img src="pancake.jpg" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;Pancake</div>
+        <div><img src="momos.jpg" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;Momos</div>
+        <div><img src="shakes.png" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;&nbsp;Shakes</div>
+        <div><img src="sweet.png" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;&nbsp;Jamun</div>
+        <div><img src="idlijpg.jpg" height="50px" width="60px" style="border-radius: 500px;"/>&ensp;&nbsp;&ensp;&nbsp;Idli</div>
+    </div>
+</body>
+</html>

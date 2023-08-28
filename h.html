@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zaikan</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="navflex">
+            <div style="width: 700px; margin-left: 50px;">
+                <span class="sa-h1" onclick="zaikan()"><b>/ZAIKAN\</b></span><input type="search"
+                    placeholder="search for location here (example 'chandni chowk') " autofocus=""
+                    style="width: 500px; margin-left:30px; padding-left: 30px; border-radius: 35px; height: 35px;" />
+                <br>
+                &emsp;&ensp;<img src="zaican.png" height="28px" width="70px" />
+            </div>
+            <div>
+                <span onclick="finding()">Search <i class="fa-solid fa-magnifying-glass fa-1x"></i></span>
+            </div>
+            <div class="naveffect" onclick="offers()">
+                % Offers
+            </div>
+            <div class="naveffect" onclick="sign()">
+                <i class="fa-regular fa-user fa-1x"></i> Sign In
+            </div>
+            <div class="naveffect" onclick="cart()">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <input type="search"
+            placeholder="search for food and restaurants&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; mic"
+            autofocus=""
+            style="height: 40px; border-radius: 30px; margin-top: 30px; width: 800px; margin-left: 368px; margin-right: 368px; padding: 16px 16px;" />
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="start">
+        <div><img src="best (7).jpg" height="260px" width="250px" /></div>
+        <div><img src="best (22).jpg" height="260px" width="250px" /></div>
+        <div><img src="best (6).jpg" height="260px" width="250px" /></div>
+        <div><img src="best (3).jpg" height="260px" width="250px" /></div>
+    </div>
+    <div class="second">
+        <h1 onclick="rest()" style="cursor: pointer;">&emsp;&emsp;&emsp;&emsp;1875 restaurants</h1>
+        <div class="secdiv">
+            <div><a href="#" style="color: rgb(96, 119, 40);">Category</a></div>
+            <div>Delivery</div>
+            <div>Rating</div>
+            <div style="width: 200px;">Cost: Low To High</div>
+            <div style="width: 200px;">Cost: High To Low</div>
+            <div>Filters</div>
+        </div>
+    </div>
+    <hr>
+    <div class="third">
+        <div style="cursor: pointer;">
+            <img src="best (14).jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;ICE CREAMS <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="biryani.jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;BIRYANI <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN .
+            &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="ice (4).jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;PIZZA <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN .
+            &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="ice (3).jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;CHINESE <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="cake.jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;CAKES <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="sandwich.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;SANDWICH <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="pasta.jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;PASTA <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="best (10).jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;KEBABS <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="idlijpg.jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;IDLI <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="sweet.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;DESERTS <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="burger.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;BURGER <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="roll.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;ROLLS <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="north.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;NORTH INDIAN <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="south.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;SOUTH INDIAN <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="best (11).jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;SHAKES <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="noodles.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;NOODLES <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="veg.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;PURE VEG <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="paratha.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;PARATHA <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="best (12).jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;PANCAKE <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="momos.jpg" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;MOMOS <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="non.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;NON-VEG <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+        <div style="cursor: pointer;"><img src="healthy.png" height="180px" width="220px"
+                style="padding-top: 18px; padding-left: 18px;"><br><br>
+            &ensp;HEALTHY FOOD <br>
+            <button class="butstar"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i></button>. 30 MIN . &#8377;450 FOR TWO
+            <hr>
+            <span class="sa-h2">QUICK VIEW</span>
+        </div>
+    </div>
+    <div class="black">
+        <br>
+        Refund Policy <br> <br> Help Center <i class="fa-solid fa-phone"></i><br> <br> Restaurants <br> <br> Complain
+        <br> <br> Terms & Conditions
+        <br> <br> Privacy policy <br> <br>
+        <hr>
+        <br>Know more about us<br> <br> Zaican@gmail.com <br><br>
+        <i class="fa-brands fa-twitter fa-1x"></i>
+        <i class="fa-brands fa-facebook fa-1x"></i>
+        <i class="fa-brands fa-instagram fa-1x"></i>
+        <i class="fa-brands fa-whatsapp fa-1x"></i><br><br>Feedback <br><br>&reg; with &copy;
+    </div>
+</body>
+
+</html>
